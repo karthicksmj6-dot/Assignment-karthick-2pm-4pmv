@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gold — Poem · Address · Lyrics</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial; line-height: 1.5; padding: 2rem; max-width: 900px; margin: auto; }
+    section { margin-bottom: 2.25rem; }
+    h1,h2 { margin: .25rem 0 .5rem; }
+    .card { padding: 1rem; border-radius: 8px; background:#fff; box-shadow: 0 1px 6px rgba(0,0,0,.06); }
+    blockquote { margin: 0; padding-left: 1rem; border-left: 4px solid #d4af37; background: #fffaf0; }
+    address { font-style: normal; line-height: 1.6; color: #444; }
+    .meta { font-size: .9rem; color:#666; }
+  </style>
+</head>
+<body>
+
+  <h1>Gold — Creative Blocks</h1>
+
+  <!-- 1) Poem (semantic: article/aside or blockquote) -->
+  <section class="card" aria-labelledby="poem-title">
+    <h2 id="poem-title">Poem: The Golden Quiet</h2>
+
+    <!-- Use blockquote for poetic content; <br> for explicit line breaks -->
+    <blockquote>
+      In the quiet dawn the gold awakes,<br>
+      A ribbon of light on ancient lakes.<br>
+      Hands that shaped it, stories they told —<br>
+      Memory wrapped in metal, bright and bold.<br>
+      Keep it close, but keep your heart free;<br>
+      Gold may glimmer, but wisdom is the key.
+    </blockquote>
+
+    <p class="meta">— short reflective poem about gold and value</p>
+  </section>
+
+  <!-- 2) Address (semantic: address element) -->
+  <section class="card" aria-labelledby="addr-title">
+    <h2 id="addr-title">Address: Golden Atelier</h2>
+
+    <!-- address is for contact/author/location details -->
+    <address>
+      Golden Atelier<br>
+      24 Karat Lane, Heritage Bazaar<br>
+      Old City, Chennai — 600001<br>
+      India<br>
+      <span class="meta">Phone: +91 98xxxxxxx | Email: contact@goldenatelier.example</span>
+    </address>
+  </section>
+
+  <!-- 3) Lyrics (semantic: article with <p> and <br>) -->
+  <section class="card" aria-labelledby="lyrics-title">
+    <h2 id="lyrics-title">Lyrics: Song of the Goldsmith</h2>
+
+    <!-- Use a group of paragraphs or one paragraph with <br> to show lines -->
+    <article>
+      <p>
+        Hammer sings on midnight's song,<br>
+        Sparks that dance and dreams that long.<br>
+        Threads of sun through fingers old,<br>
+        Crafting stories, forging gold.<br>
+        Wear it proud, remember well—<br>
+        Every ring holds a tale to tell.
+      </p>
+      <p class="meta">— chorus repeated softly</p>
+    </article>
+  </section>
+
+</body>
+</html>
