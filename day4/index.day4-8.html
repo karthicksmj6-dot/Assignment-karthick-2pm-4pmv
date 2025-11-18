@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+
+    <form>
+
+        <!-- Student Name -->
+        <label for="name">Student Name:</label><br>
+        <input type="text" id="name" name="name" value="Athith Dinesh" required>
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <!-- Age -->
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="10" max="60" required>
+        <br><br>
+
+        <!-- Favourite Singer -->
+        <label for="singer">Favourite Singer:</label><br>
+        <select id="singer" name="singer" required>
+            <option value="">-- Select Singer --</option>
+            <option value="dion-dimcu">Dion Dimcu (Singer)</option>
+            <option value="elvis-presley">Elvis Presley (Singer)</option>
+        </select>
+        <br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" minlength="6" required>
+        <br><br>
+
+        <!-- Confirm Password -->
+        <label for="confirm">Confirm Password:</label><br>
+        <input type="password" id="confirm" name="confirm" minlength="6" required>
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Register</button>
+
+    </form>
+
+</body>
+</html>

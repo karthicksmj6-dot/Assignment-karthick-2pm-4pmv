@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My First Website</title>
+
+    <!-- Very simple beginner style -->
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .main-box {
+            background-color: white;
+            padding: 10px;
+            width: 90%;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+        }
+
+        /* simple nav */
+        .menu {
+            background-color: #333;
+            padding: 5px;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        /* simple table */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #000;
+        }
+
+        th, td {
+            padding: 5px;
+        }
+
+        /* form */
+        label {
+            display: block;
+            margin-top: 8px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            margin-top: 10px;
+            padding: 8px 15px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My First Website</h1>
+
+    <div class="menu">
+        <!-- simple links to sections -->
+        <a href="#home">Home</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#features">Features</a>
+        <a href="#glossary">Glossary</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="main-box">
+        <h2 id="home">Home</h2>
+        <p>
+            Hi, this is my first simple website.  
+            I am just learning HTML and trying some basic things here.
+        </p>
+
+        <hr>
+
+        <h2 id="pricing">Pricing Table</h2>
+        <p>Below is a very basic pricing table I made while practicing:</p>
+
+        <table>
+            <tr>
+                <th>Plan</th>
+                <th>Price</th>
+                <th>Storage</th>
+            </tr>
+            <tr>
+                <td>Basic</td>
+                <td>$9.99 / month</td>
+                <td>10 GB</td>
+            </tr>
+            <tr>
+                <td>Standard</td>
+                <td>$19.99 / month</td>
+                <td>50 GB</td>
+            </tr>
+            <tr>
+                <td>Premium</td>
+                <td>$29.99 / month</td>
+                <td>Unlimited</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <h2 id="features">Features (Just Example Text)</h2>
+        <ul>
+            <li>Easy to use website</li>
+            <li>Simple design</li>
+            <li>Made by a beginner 😅</li>
+        </ul>
+
+        <hr>
+
+        <h2 id="glossary">Small Glossary</h2>
+        <p>Some basic words I am learning:</p>
+        <dl>
+            <dt>HTML</dt>
+            <dd>The basic language used to make web pages.</dd>
+
+            <dt>CSS</dt>
+            <dd>Used to add style (colors, fonts, etc.) to web pages.</dd>
+
+            <dt>Website</dt>
+            <dd>A collection of web pages on the internet.</dd>
+        </dl>
+
+        <hr>
+
+        <h2 id="contact">Contact Form (Practice Only)</h2>
+        <p>This form does not really send anything. I am just practicing:</p>
+
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <input type="submit" value="Send (Not Really)">
+        </form>
+    </div>
+
+    <footer>
+        <p>Made by me while learning HTML. &copy; 2023</p>
+    </footer>
+
+</body>
+</html>
+
